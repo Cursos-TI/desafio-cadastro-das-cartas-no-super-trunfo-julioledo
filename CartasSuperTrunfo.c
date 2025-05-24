@@ -9,7 +9,7 @@ int main() {
     //declaração das variáveis da primeira carta
 
     char codigo_estado_1;
-    char codigo_cidade_1[4];
+    char codigo_carta_1[4];
     char nome_cidade_1[20];
     int populacao_1;
     float area_1;
@@ -19,7 +19,7 @@ int main() {
     //declaração das variáveis da segunda carta
 
     char codigo_estado_2;
-    char codigo_cidade_2[4];
+    char codigo_carta_2[4];
     char nome_cidade_2[20];
     int populacao_2;
     float area_2;
@@ -28,7 +28,7 @@ int main() {
 
     //Inicialização do programa
 
-    printf("Bem vindo ao Super Trunfo \n\n");
+    printf("Bem vindo ao Super Trunfo Países\n\n");
 
     //Cadastramento dos dados da primeira carta
 
@@ -37,8 +37,8 @@ int main() {
 
     printf("Digite o código (letra) do estado 1: ");
     scanf(" %c", &codigo_estado_1);
-    printf("Digite o código da cidade 1 (3 caracteres): ");
-    scanf("%s", codigo_cidade_1);
+    printf("Digite o código da carta 1 (3 caracteres): ");
+    scanf("%s", codigo_carta_1);
     printf("Digite o nome da cidade 1: ");
     scanf(" ");
     fgets(nome_cidade_1,20,stdin);
@@ -58,8 +58,8 @@ int main() {
     
     printf("Digite o código (letra) do estado 2: ");
     scanf(" %c", &codigo_estado_2);
-    printf("Digite o código da cidade 2 (3 caracteres): ");
-    scanf("%s", codigo_cidade_2);
+    printf("Digite o código da carta 2 (3 caracteres): ");
+    scanf("%s", codigo_carta_2);
     printf("Digite o nome da cidade 2: ");
     scanf(" ");
     fgets(nome_cidade_2,20,stdin);
@@ -77,7 +77,7 @@ int main() {
 
     printf("\nCarta 1: \n\n");
     printf("Estado: %c\n",codigo_estado_1);
-    printf("Código: %s\n",codigo_cidade_1);
+    printf("Código: %s\n",codigo_carta_1);
     printf("Nome da Cidade: %s\n", nome_cidade_1);
     printf("População:  %d\n", populacao_1);
     printf("Área: %.2f\n", area_1);
@@ -86,7 +86,7 @@ int main() {
 
     printf("\nCarta 2: \n\n");
     printf("Estado: %c\n",codigo_estado_2);
-    printf("Código: %s\n",codigo_cidade_2);
+    printf("Código: %s\n",codigo_carta_2);
     printf("Nome da Cidade: %s\n", nome_cidade_2);
     printf("População:  %d\n", populacao_2);
     printf("Área: %.2f\n", area_2);
